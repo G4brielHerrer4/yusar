@@ -17,7 +17,6 @@ commands = [
 [phases.start]
 commands = [
     "chmod -R 775 storage bootstrap/cache",
-    "php artisan storage:link",
     "php artisan migrate --force",
     "php-fpm"
 ]
