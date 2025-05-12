@@ -1,6 +1,6 @@
 [phases.setup]
 packages = [
-    "php81.withExtensions (pe: pe.enabled ++ [])",
+    "php81.withExtensions (pe: [pe.curl, pe.mbstring, pe.xml, pe.pdo_mysql])", # Extensiones esenciales
     "nginx",
     "libmysqlclient",
     "php81Packages.composer",
@@ -9,14 +9,19 @@ packages = [
 
 [phases.install]
 commands = [
-    "composer install --no-dev --optimize-autoloader",
-    "npm ci",
+    # Prepara directorios críticos primero
+    "mkdir -p storage/framework/{cache,sessions,views}",
+    "chmod -R 775 storage bootstrap/cache",
+    
+    # Instala dependencias
+    "composer install --no-dev --optimize-autoloader --no-interaction",
+    "npm ci --production",
     "npm run build"
+     "php artisan migrate --force"
 ]
 
 [phases.start]
 commands = [
-    "chmod -R 775 storage bootstrap/cache",
-    "php artisan migrate --force",
+    # Solo comandos de inicio (las migraciones se moverán a install)
     "php-fpm"
 ]
