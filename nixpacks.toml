@@ -1,11 +1,11 @@
 [phases]
-setup = """
-    php81.withExtensions (pe: pe.enabled ++ []), 
-    nginx, 
-    libmysqlclient, 
-    php81Packages.composer, 
-    nodejs_18
-"""
+setup = [
+    "php81.withExtensions (pe: pe.enabled ++ [])",
+    "nginx",
+    "libmysqlclient",
+    "php81Packages.composer",
+    "nodejs_18"
+]
 
 [phases.install]
 commands = [
@@ -18,6 +18,6 @@ commands = [
 commands = [
     "chmod -R 775 storage bootstrap/cache",
     "php artisan storage:link",
-    "php artisan migrate --force",  # Migraciones automáticas
+    "php artisan migrate --force",
     "php-fpm"
 ]
