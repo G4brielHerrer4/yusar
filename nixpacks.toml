@@ -1,5 +1,5 @@
-[phases]
-setup = [
+[phases.setup]
+packages = [
     "php81.withExtensions (pe: pe.enabled ++ [])",
     "nginx",
     "libmysqlclient",
