@@ -1,66 +1,124 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Sistema para tienda virtual YUSAR
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p><p align="center"> <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a> <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a> <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a> <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a> </p>
+🌐 Demo en Vivo
+URL: https://yusar.infinityfreeapp.com/
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+🚀 Tecnologías Utilizadas
+Backend
+Laravel 10 - Framework PHP principal
 
-## About Laravel
+PHP 8.1+ - Lenguaje de programación del servidor
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Frontend
+HTML5 - Estructura semántica
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+CSS3 - Estilos y diseño responsive
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Bootstrap 5 - Framework CSS para componentes
 
-## Learning Laravel
+JavaScript  - Interactividad del cliente
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Base de Datos
+MySQL - Sistema de gestión de base de datos
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Panel de Administración
+AdminLTE 3 - Template profesional para dashboard
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+🏪 Descripción del Proyecto
+YUSAR es un sistema integral de gestión para tienda en línea de ropa, diseñado para optimizar todos los procesos desde la producción hasta la venta final.
 
-## Laravel Sponsors
+📊 Módulos Principales
+🔧 Gestión de Inventario y Producción
+Registro de materiales - Control de materias primas
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Gestión de proveedores - Base de datos de proveedores
 
-### Premium Partners
+Sistema de compras - Adquisición de materiales
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Control de confeccionistas - Gestión del personal de producción
 
-## Contributing
+Entrega y recepción - Seguimiento de materiales y prendas terminadas
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+💼 Sistema de Ventas
+Ventas presenciales - Punto de venta tradicional
 
-## Code of Conduct
+Ventas por voucher - Sistema de comprobantes
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Ofertas flexibles - Individuales y por lotes
 
-## Security Vulnerabilities
+Sistema de puntos - Recompensas por compras
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Beneficios en descuentos - Programa de fidelización
 
-## License
+🎯 CRM 
+Preferencias de compra - Análisis del comportamiento del cliente
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Seguimiento de compra - Monitoreo en tiempo real
+
+Ofertas personalizadas - Recomendaciones basadas en historial
+
+Abandono de carrito - Recuperación de ventas perdidas
+
+👕 Experiencia del Cliente
+Probador virtual - Visualizador de prendas superiores
+
+Dashboard personalizado - Según rol de usuario
+
+👥 Sistema de Roles
+Rol y Responsabilidades
+Administrador	Control total del sistema, gestión de usuarios, configuración global
+Responsable	Supervisión de operaciones, reportes, gestión de inventario
+Vendedor	Procesamiento de ventas, atención al cliente, registro de transacciones
+Cliente	Compra de productos, seguimiento de pedidos, gestión de perfil
+📈 Reportes y Estadísticas
+Reportes de ventas y rentabilidad
+
+Análisis de inventario y rotación
+
+Estadísticas de clientes y preferencias
+
+Métricas de producción y eficiencia
+
+Dashboard interactivo con gráficos en tiempo real
+
+🛡️ Características de Seguridad
+Autenticación multi-rol con permisos granulares
+
+Protección contra CSRF y XSS
+
+Validación de datos en frontend y backend
+
+Sistema de backup manual y automatizado
+
+Logs de auditoría de todos los modulos
+
+Proteccion de rutas middleware
+
+Captcha para ingreso masivo de bots
+
+Encriptacion de claves
+
+🚀 Instalación y Configuración
+/
+
+
+✨ Características Destacadas
+✅ Dashboard administrativo con AdminLTE 3
+
+✅ Sistema multi-rol con permisos granulares
+
+✅ CRM completo con seguimiento de clientes
+
+✅ Probador virtual de ropa
+
+✅ Sistema de puntos y fidelización
+
+✅ Reportes estadísticos en tiempo real
+
+✅ Interfaz responsive y moderna
+
+✅ Optimizado para rendimiento
+
+🔗 Acceso al sistema: https://yusar.infinityfreeapp.com/
+
+Sistema desarrollado para la gestión integral de tiendas de ropa en línea
