@@ -66,22 +66,24 @@ Dashboard personalizado - Según rol de usuario
 
 👥 Sistema de Roles
 Rol y Responsabilidades
-Administrador	Control total del sistema, gestión de usuarios, configuración global
-Responsable	Supervisión de operaciones, reportes, gestión de inventario
-Vendedor	Procesamiento de ventas, atención al cliente, registro de transacciones
-Cliente	Compra de productos, seguimiento de pedidos, gestión de perfil
+ADMINISTRADOR:	Control total del sistema, gestión de usuarios, configuración global
+
+RESPONSABLE:	Supervisión de operaciones, reportes, gestión de inventario
+
+VENDEDOR:	Procesamiento de ventas, atención al cliente, registro de transacciones
+
+CLIENTE:	Compra de productos, seguimiento de pedidos, gestión de perfil
+
 📈 Reportes y Estadísticas
+
 Reportes de ventas y rentabilidad
 
-Análisis de inventario y rotación
-
-Estadísticas de clientes y preferencias
-
-Métricas de producción y eficiencia
+Estadísticas de metodos de pago y tipo de venta
 
 Dashboard interactivo con gráficos en tiempo real
 
 🛡️ Características de Seguridad
+
 Autenticación multi-rol con permisos granulares
 
 Protección contra CSRF y XSS
@@ -103,6 +105,7 @@ Encriptacion de claves
 
 
 ✨ Características Destacadas
+
 ✅ Dashboard administrativo con AdminLTE 3
 
 ✅ Sistema multi-rol con permisos granulares
